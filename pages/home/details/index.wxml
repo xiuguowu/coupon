@@ -1,0 +1,69 @@
+<view class="bg">
+<view class="top">
+ <view class="limitCoupon">
+ <text>优惠劵</text>
+ </view>
+<view class="topT">
+<view class="topT_L">
+<view class="topT_L_T">Oseq-无创肺癌ctDNA靶向用药</view>
+<view>2022-05-20到期</view>
+</view>
+<view class="topT_R">
+<text class="topT_R_T">8</text>
+<text class="topT_R_S">折</text>
+</view>
+</view>
+<view class="topM">
+<view class="topM_T">使用说明</view>
+<view>平台将发放一个优惠码给您，下单时使用优惠码兑换优惠券即可。</view>
+</view>
+</view>
+<!-- 介绍 -->
+<view class="main">
+<view class="mainT">本券可用产品简介</view>
+<view class="mainM">
+<view class="mainML">
+<image src="/static/img/home/banner01.png"></image>
+</view>
+<view class="mainMR">
+<view>Oseq-肺癌组织个体化诊疗基因检测-11基因</view>
+<view class="mainMR_S">
+<text class="mainMR_S_L">¥5000</text>
+<text>劵后¥4500</text>
+</view>
+</view>
+</view>
+<view class="mainB">
+  用于肺癌患者肿瘤组织样本，基于高通量测序技术，在DNA水平检测与肺癌靶向用药相关的11个基因，解读20种靶向药物，为临床用药提供参考。
+</view>
+</view>
+
+</view>
+
+<!-- 客服 -->
+<view class="customerService">
+<image src="/static/img/home/customerService.png"></image>
+<text>咨询客服</text>
+</view>
+
+<view class="bottom">
+<view class="bottomL">转赠亲友使用</view>
+<view class="bottomR">复制优惠码去下单</view>
+</view>
+
+<view class="popout-gray ">
+  <view class='popout-box'>
+    <view class='sample-popout'>
+      <view class='popout-con'>
+      <view class="popoutT">
+      <view class="popoutTT">56****26</view>
+      <view class="popoutTips">您的优惠码已复制成功</view>
+      <view>请在<text class="fw">【提交订单】</text>页面，点击<text class="fw">【优惠券】</text><text class="color4">粘贴</text>优惠码，下单时将自动减免</view>
+      </view>
+      <view class="popout-btn">
+      <text>知道了, 去下单</text>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

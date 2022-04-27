@@ -1,0 +1,11 @@
+
+<nav noArrow isWhite='false'  navTitle='华大基因内部福利券'></nav>
+<view class="image"><image src="/static/img/home/loginBanner.png" mode="aspectFill"></image></view>
+
+<view class="bottom">
+<button class="btn" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+  <image src="/static/img/home/wechat.png"></image>
+<text>微信登录</text>
+</button>
+
+</view>

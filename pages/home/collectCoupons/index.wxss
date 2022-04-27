@@ -1,0 +1,137 @@
+page{
+  background-color: #f9f9f9;
+}
+.bg{
+  padding: 30rpx 30rpx 0 30rpx;
+}
+.head{
+  text-align: center;
+  font-size: 30rpx;
+  color: #333;
+}
+.headIcon image{
+width: 80rpx;
+height: 80rpx;
+}
+.top{
+  background: #FFFFFF;
+  border: 1rpx solid #C9D4D4;
+  padding: 0 30rpx 30rpx 30rpx;
+  border-radius: 10rpx;
+  position: relative;
+  margin-top: 30rpx;
+}
+
+.invoice-content:before {
+  content: '';
+  position: absolute;
+  top: 58px;
+  left: -16px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  /* border-right: 2px dotted $mainGreenColor; */
+  border-radius: 0 50px 50px 0; 
+}
+.invoice-content:after {
+  content: '';
+  position: absolute;
+  top: 58px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  /* border-left: 2px dotted $mainGreenColor; */
+  border-radius: 50px 0 0 50px;  /* 将右上和右下角的radius设置为0以改善效果 */
+}
+
+.top::after{
+content: '';
+position: absolute;
+top: 140rpx;
+left: -4rpx;
+border-top: 1rpx solid #C9D4D4;
+border-right: 1rpx solid #C9D4D4;
+border-bottom: 1rpx solid #C9D4D4;
+width: 14rpx;
+height: 20rpx;
+z-index: 99;
+border-radius: 0 50rpx 50rpx 0; 
+background-color: #f9f9f9;
+}
+.top::before{
+  content: '';
+  position: absolute;
+  top: 140rpx;
+  right: -4rpx;
+  border-top: 1rpx solid #C9D4D4;
+  border-left: 1rpx solid #C9D4D4;
+  border-bottom: 1rpx solid #C9D4D4;
+  width: 14rpx;
+  height: 20rpx;
+  z-index: 99;
+  border-radius: 50rpx 0 0 50rpx; 
+  background-color: #f9f9f9;
+  }
+  .limitCoupon{
+    position: absolute;
+    top: 0;
+    left: 0;
+      width: 80rpx;
+      height: 32rpx;
+      font-size: 20rpx;
+      text-align: center;
+      color: #fff;
+    background: linear-gradient(to right,#BB5EE8, #3B4CEE);
+    border-radius: 10rpx 0 10rpx 0;
+  }
+.topT{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50rpx 0 20rpx 0;
+  border-bottom: 1rpx dotted #E5E5E5;
+  border-width:5rpx;
+}
+.topT_L{
+  width: 500rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+.topT_L_T{
+  font-size: 32rpx;
+  color: #333;
+}
+.topT_R_T{
+  font-size: 56rpx;
+  color: #4AD2CF;
+}
+.topT_R_S{
+  font-size: 26rpx;
+  color: #4AD2CF;
+  display: inline-block;
+  margin: 0 10rpx;
+}
+.topM{
+  padding-top: 25rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+.topMT{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.color4{
+  color: #4AD2CF;
+}
+.top_btn{
+  margin-top: 60rpx;
+  background-color: #4AD2CF;
+  height: 88rpx;
+  line-height: 88rpx;
+  border-radius: 6rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,39 @@
+<view class="bg">
+<view class="top">
+ <view class="limitCoupon">
+ <text>优惠劵</text>
+ </view>
+<view class="topT">
+<view class="topT_L">
+<view class="topT_L_T">Oseq-无创肺癌ctDNA靶向用药</view>
+<view>2022-05-20到期</view>
+</view>
+<view class="topT_R">
+<text class="topT_R_T">8</text>
+<text class="topT_R_S">折</text>
+</view>
+</view>
+<view class="topM">
+<view class="topM_T">转赠说明</view>
+<view>1、转赠后好友需要在有效内领取，超过有效</view>
+<view>2、赠送出去的优惠券若无人领取则可继续使用。</view>
+  <view>3、已被亲友领取的优惠券无法继续使用。</view>
+    <view>4、亲友领取优惠券不能再转赠。</view>
+      <view>5、如优惠券已在商场兑换，亲友领取后也无法兑换。</view>
+</view>
+</view>
+
+
+</view>
+
+<!-- 客服 -->
+<view class="customerService">
+<image src="/static/img/home/customerService.png"></image>
+<text>咨询客服</text>
+</view>
+
+<view class="bottom">
+<view class="bottomL">取消</view>
+<view class="bottomR">转赠优惠券</view>
+</view>
+

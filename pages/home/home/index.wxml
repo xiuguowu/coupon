@@ -1,0 +1,38 @@
+<view class="container-body">
+  <!-- 头部 -->
+  <view class="particulars-hader">
+    <view class="particulars-photo">
+      <open-data class='header-logo' type="userAvatarUrl"></open-data>  
+    </view>
+    <view class="particulars-JB-title">
+      <text>{{userMobile}}</text>
+      <open-data type="userNickName" id="nickname"></open-data>
+    </view>
+  </view>
+  <!-- 内容 -->
+  <view class="particulars-content-box">
+    <!-- 绑定样本 -->
+    <navigator url="/pages/sample/pages/common/detection/detection">
+      <view class="particulars-sample-HP">
+        <view class="particulars-image">
+          <image src="/static/img/sample-icon.png"></image>
+        </view>
+        <view class="particulars-text-J">
+          <text>绑定样本</text>
+        </view>
+      </view>
+    </navigator>
+    <!-- 查看报告 -->
+    <navigator url="/pages/report/pages/reportList/report">
+      <view class="particulars-sample-HP">
+        <view class="particulars-image">
+          <image src="/static/img/report-icon.png"></image>
+        </view>
+        <view class="particulars-text-J">
+          <text>查看报告</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
+<!-- <view class="mask-modal_box" wx:if="{{isShow}}"></view> -->

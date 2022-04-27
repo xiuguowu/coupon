@@ -1,0 +1,38 @@
+<view class="bg">
+<view class="head">
+<view class="headIcon"><image src="/static/img/home/head.png"></image></view>
+<view class="marginT_10"><text>华小康</text></view>
+<view class="marginT_10"><text> 送您一张员工福利券</text></view>
+</view>
+
+<view class="top">
+ <view class="limitCoupon">
+ <text>优惠劵</text>
+ </view>
+<view class="topT">
+<view class="topT_L">
+<view class="topT_L_T">Oseq-无创肺癌ctDNA靶向用药</view>
+</view>
+<view class="topT_R">
+<text class="topT_R_T">8</text>
+<text class="topT_R_S">折</text>
+</view>
+</view>
+<view class="topM">
+<view class="topMT">
+<text>2022-05-20到期</text>
+<text class="color4">查看福利券详情</text>
+</view>
+<view class="top_btn">
+<text>立即领取</text>
+</view>
+</view>
+</view>
+
+
+</view>
+
+
+
+
+

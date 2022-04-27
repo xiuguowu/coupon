@@ -1,0 +1,267 @@
+page{
+  background-color: #f9f9f9;
+}
+.bg{
+  padding: 20rpx 30rpx 0 30rpx;
+}
+.top{
+  background: #FFFFFF;
+  border: 1rpx solid #C9D4D4;
+  padding: 40rpx 30rpx 30rpx 30rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+
+.invoice-content:before {
+  content: '';
+  position: absolute;
+  top: 58px;
+  left: -16px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  /* border-right: 2px dotted $mainGreenColor; */
+  border-radius: 0 50px 50px 0; 
+}
+.invoice-content:after {
+  content: '';
+  position: absolute;
+  top: 58px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  /* border-left: 2px dotted $mainGreenColor; */
+  border-radius: 50px 0 0 50px;  /* 将右上和右下角的radius设置为0以改善效果 */
+}
+
+.top::after{
+content: '';
+position: absolute;
+top: 140rpx;
+left: -4rpx;
+border-top: 1rpx solid #C9D4D4;
+border-right: 1rpx solid #C9D4D4;
+border-bottom: 1rpx solid #C9D4D4;
+width: 14rpx;
+height: 20rpx;
+z-index: 99;
+border-radius: 0 50rpx 50rpx 0; 
+background-color: #f9f9f9;
+}
+.top::before{
+  content: '';
+  position: absolute;
+  top: 140rpx;
+  right: -4rpx;
+  border-top: 1rpx solid #C9D4D4;
+  border-left: 1rpx solid #C9D4D4;
+  border-bottom: 1rpx solid #C9D4D4;
+  width: 14rpx;
+  height: 20rpx;
+  z-index: 99;
+  border-radius: 50rpx 0 0 50rpx; 
+  background-color: #f9f9f9;
+  }
+  .limitCoupon{
+    position: absolute;
+    top: 0;
+    left: 0;
+      width: 80rpx;
+      height: 32rpx;
+      font-size: 20rpx;
+      text-align: center;
+      color: #fff;
+    background: linear-gradient(to right,#BB5EE8, #3B4CEE);
+    border-radius: 10rpx 0 10rpx 0;
+  }
+.topT{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx dotted #E5E5E5;
+  border-width:5rpx;
+}
+.topT_L{
+  width: 500rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+.topT_L_T{
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.topT_R_T{
+  font-size: 56rpx;
+  color: #4AD2CF;
+}
+.topT_R_S{
+  font-size: 26rpx;
+  color: #4AD2CF;
+  display: inline-block;
+  margin: 0 10rpx;
+}
+.topM{
+  padding-top: 30rpx;
+  font-size: 28rpx;
+  line-height: 45rpx;
+  color: #888;
+}
+.topM_T{
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.main{
+  margin-top: 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.mainT{
+  color: #333;
+}
+.mainM{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.mainML{
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 20rpx;
+}
+.mainML image{
+width: 100%;
+height: 100%;
+}
+.mainMR_S_L{
+  color: #666;
+  display: inline-block;
+  margin-right: 20rpx;
+  position: relative;
+}
+.mainMR_S_L::before{
+content:'';
+width: 100%;
+height: 1rpx;
+position: absolute;
+top: 50%;
+left: 0;
+background-color: #D8101A;
+}
+.mainMR_S{
+  margin-top: 30rpx;
+  font-size: 24rpx;
+  color: #D8101A;
+}
+.mainB{
+  margin-top: 30rpx;
+  color: #888;
+  line-height: 45rpx;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomL{
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  color: #4AD2CF;
+  text-align: center;
+}
+.bottomR{
+flex: 1;
+background-color: #4AD2CF;
+text-align: center;
+height: 100%;
+color: #fff;
+}
+.customerService{
+  position: fixed;
+  right: 0;
+  bottom: 314rpx;
+  width: 200rpx;
+  height: 76rpx;
+  background: #FFFFFF;
+  border-radius: 58rpx 0 0 58rpx;
+  opacity: 0.8;
+  border-left: 1px solid #4AD2CF;
+  border-top: 1px solid #4AD2CF;
+  border-bottom: 1px solid #4AD2CF;
+  font-size: 26rpx;
+  color: #4AD2CF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customerService image{
+  width: 38rpx;
+  height: 40rpx;
+  display: inline-block;
+  margin-right: 10rpx;
+}
+
+/* 弹框样式 */
+/* 弹框显示隐藏 */
+.isPopoutShow{display:block;}
+.isPopoutHide{display:none;}
+.popout-gray{position:fixed;left:0rpx;top:0rpx;right:0rpx;bottom:0rpx;background:rgba(0,0,0,0.2);z-index:9999;
+  /* width: 100%;
+  height: 100%; */
+}
+.popout-gray .popout-box{z-index:999;
+  animation:showSweetAlert .3s;
+  /* width: 100%;
+  height: 100%; */
+}
+.popout-box .sample-popout{
+
+margin: 300rpx 60rpx 0 60rpx;
+display: flex;
+justify-content: center;
+align-content: center;
+  background:#fff;
+  text-align:center;
+ 
+  border-radius:12rpx;}
+.popoutT{
+  padding: 60rpx 70rpx 40rpx 70rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 42rpx;
+}
+.popoutTT{
+  font-size: 40rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.popoutTips{
+  color: #888;
+  margin-bottom: 60rpx;
+}
+.popout-btn{
+  padding: 40rpx 0;
+  font-size: 32rpx;
+  color: #4AD2CF;
+  border-top: 1rpx solid #E5E5E5;
+}
+.fw{
+  font-weight: 600;
+}
+.color4{
+  color: #4AD2CF;
+}

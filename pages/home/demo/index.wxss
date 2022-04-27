@@ -1,0 +1,108 @@
+.custom{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 150px;
+  z-index: 999;
+}
+.custom text{
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: 500;
+  max-width: 280rpx;
+}
+.empty_custom{
+  height: 45px;
+  width: 100%;
+}
+.swiper {
+  height: 200rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 5rpx;
+}
+.swiperData{
+  width: 94%;
+  padding-left: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+.weather{
+  padding-right: 20rpx;
+  display: flex;
+  align-items: center;
+  float: right;
+  color: white;
+}
+.weui-grid {  
+  position: relative;  
+  float: left;  
+  padding: 20px 10px;  
+  width: 50%;  
+  box-sizing: border-box;  
+}  
+.weui-grid:before {  
+  content: " ";  
+  position: absolute;  
+  right: 0;  
+  top: 0;  
+  width: 0px;  
+  bottom: 0;  
+  border-right: 0px solid #D9D9D9;  
+  color: #D9D9D9;  
+  -webkit-transform-origin: 100% 0;  
+          transform-origin: 100% 0;  
+  -webkit-transform: scaleX(0.5);  
+          transform: scaleX(0.5);  
+}  
+.weui-grid:after {  
+  content: " ";  
+  position: absolute;  
+  left: 0;  
+  bottom: 0;  
+  right: 0;  
+  height: 0px;  
+  border-bottom: 0px solid #D9D9D9;  
+  color: #D9D9D9;  
+  -webkit-transform-origin: 0 100%;  
+          transform-origin: 0 100%;  
+  -webkit-transform: scaleY(0.5);  
+          transform: scaleY(0.5);  
+}  
+.weui-grid:active {  
+  background-color: #ECECEC;  
+}  
+.weui-grid__icon {  
+  width: 48px;  
+  height: 48px;  
+  margin: 0 auto;  
+}  
+.weui-grid__icon image {  
+  display: block;  
+  width: 100%;  
+  height: 100%;  
+}  
+.weui-grid__icon + .weui-grid__label {  
+  margin-top: 15px;  
+}  
+.weui-grid__label {  
+  font-family: 微软雅黑;
+  display: block;  
+  text-align: center;   
+  color: #000000;  
+  font-size: 12px;  
+  white-space: nowrap;  
+  text-overflow: ellipsis;  
+  overflow: hidden;  
+}  

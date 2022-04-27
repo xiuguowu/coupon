@@ -1,0 +1,486 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "授权",
+          "pathName": "pages/authorization/authorization",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "手机注册登录",
+          "pathName": "pages/login/login",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "使用协议",
+          "pathName": "pages/clause/clause",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "微信绑定",
+          "pathName": "pages/weChat/weChat",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "报告",
+          "pathName": "pages/report/report",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "报告详情",
+          "pathName": "pages/reportDetail/reportDetail",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "回寄样品",
+          "pathName": "pages/returnSample/returnSample",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "绑定样品",
+          "pathName": "pages/bindSampleNumber/bindSampleNumber",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "步骤",
+          "pathName": "pages/bindStep/bindStep",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "筛诊保1",
+          "pathName": "pages/bindStep/screening/01",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "筛诊保2",
+          "pathName": "pages/bindStep/screening/02",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "步骤",
+          "pathName": "pages/bindStep/bindStep",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "筛诊保3",
+          "pathName": "pages/bindStep/screening/03",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "单筛1",
+          "pathName": "pages/bindStep/single/01",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "单筛2",
+          "pathName": "pages/bindStep/single/02",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "单筛3",
+          "pathName": "pages/bindStep/single/03",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "电子报告",
+          "pathName": "pages/reportPdf/reportPdf",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "报告详情",
+          "pathName": "pages/reportPdf/reportPdf",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "brac入录信息",
+          "pathName": "pages/sample/brca/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "crc入录信息",
+          "pathName": "pages/sample/crc/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "brca自取样",
+          "pathName": "pages/sample/brca/samplingProcess/samplingProcess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "crc采样流程",
+          "pathName": "pages/sample/crc/samplingProcess/samplingProcess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "登陆",
+          "pathName": "pages/sample/common/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "报告列表",
+          "pathName": "pages/reportList/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/ncov/success",
+          "pathName": "pages/sample/ncov/success",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "微生态报告",
+          "pathName": "pages/report/pages/reportDetail/reproductive/report/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "微生态报告",
+          "pathName": "pages/report/pages/reportDetail/reproductive/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/heredityGenes/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/process/process",
+          "pathName": "pages/sample/pages/heredityGenes/process/process",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/collecSample/collecSample",
+          "pathName": "pages/sample/pages/heredityGenes/collecSample/collecSample",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/collecSampleTwo/collecSampleTwo",
+          "pathName": "pages/sample/pages/heredityGenes/collecSampleTwo/collecSampleTwo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/samplingProcess/samplingProcess",
+          "pathName": "pages/sample/pages/heredityGenes/samplingProcess/samplingProcess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/sampling/sampling",
+          "pathName": "pages/sample/pages/heredityGenes/sampling/sampling",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/bindSample/bindSample",
+          "pathName": "pages/sample/pages/heredityGenes/bindSample/bindSample",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/bindSampleConsent/bindSampleConsent",
+          "pathName": "pages/sample/pages/heredityGenes/bindSampleConsent/bindSampleConsent",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/heredityGenes/suitable/suitable",
+          "pathName": "pages/sample/pages/heredityGenes/suitable/suitable",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/sample/pages/maleHpv/sampling/sampling",
+          "pathName": "pages/sample/pages/maleHpv/sampling/sampling",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/report/pages/reportDetail/heredityGenes/report/report",
+          "pathName": "pages/report/pages/reportDetail/heredityGenes/report/report",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/maleHpv/sampling/sampling",
+          "pathName": "pages/sample/pages/maleHpv/sampling/sampling",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/hpv/bindSampleConsent/bindSampleConsent",
+          "pathName": "pages/sample/pages/hpv/bindSampleConsent/bindSampleConsent",
+          "query": "securityType=1",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/hpv/bindSampleConsent/bindSampleConsent",
+          "pathName": "pages/sample/pages/hpv/bindSampleConsent/bindSampleConsent",
+          "query": "securityType=3",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/brca/report/report",
+          "pathName": "pages/report/pages/reportDetail/brca/report/report",
+          "query": "sampleinfo.serviceCode ='DX1838'",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/brca/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/brca/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/heredityGenes/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/heredityGenes/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/brca/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/brca/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/crc/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/crc/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/crc/addProcess/addProcess",
+          "pathName": "pages/sample/pages/crc/addProcess/addProcess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/hpv/process/process",
+          "pathName": "pages/sample/pages/hpv/process/process",
+          "query": "mobile=13528795057&produtLine=1",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/common/informaSample/informaSample",
+          "pathName": "pages/sample/pages/common/informaSample/informaSample",
+          "query": "sampleCode=PS190760203&productLine=19",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportStatus/reportStatus",
+          "pathName": "pages/report/pages/reportStatus/reportStatus",
+          "query": "code=15T0000001&productLine=31",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/hpv/process/process",
+          "pathName": "pages/sample/pages/hpv/process/process",
+          "query": "mobile=13528795057&productLine=1",
+          "scene": null
+        },
+        {
+          "name": "pages/SF/waybill/waybill",
+          "pathName": "pages/SF/waybill/waybill",
+          "query": "sampleCodes= PS190339431&productLine=1",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/brca/addProcess/addProcess",
+          "pathName": "pages/sample/pages/brca/addProcess/addProcess",
+          "query": "sampleCodes=19S3712980&productLine=20&mobile=13528795057",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/crc/addProcess/addProcess",
+          "pathName": "pages/sample/pages/crc/addProcess/addProcess",
+          "query": "sampleCodes=19S3712980&productLine=20&mobile=13528795057",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/reproductive/process/process",
+          "pathName": "pages/sample/pages/reproductive/process/process",
+          "query": "sampleCodes=19S3712980&productLine=20&mobile=13528795057",
+          "scene": null
+        },
+        {
+          "name": "pages/reportList/index",
+          "pathName": "pages/reportList/index",
+          "query": "code=PS190760220&productLine=19",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/brca/addProcess/addProcess",
+          "pathName": "pages/sample/pages/brca/addProcess/addProcess",
+          "query": "mobile=13528795057&productLine=20",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/brca/report/report",
+          "pathName": "pages/report/pages/reportDetail/brca/report/report",
+          "query": "sampleCode=19S3712991",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/hpv/report/report",
+          "pathName": "pages/report/pages/reportDetail/hpv/report/report",
+          "query": "sampleCode=SPS21092159",
+          "scene": null
+        },
+        {
+          "name": "pages/home/my/index",
+          "pathName": "pages/home/my/index",
+          "query": "sampleCode=SPS20096100",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/crc/report",
+          "pathName": "pages/report/pages/reportDetail/crc/report",
+          "query": "sampleCode=PS190760211",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/reproductive/index",
+          "pathName": "pages/report/pages/reportDetail/reproductive/index",
+          "query": "sampleCode=PS190760211",
+          "scene": null
+        },
+        {
+          "name": "pages/report/pages/reportDetail/heredityGenes/report/report",
+          "pathName": "pages/report/pages/reportDetail/heredityGenes/report/report",
+          "query": "sampleCode=30S0000007",
+          "scene": null
+        },
+        {
+          "name": "样本采集预约",
+          "pathName": "pages/sample/pages/liverCancer/reserve",
+          "query": "sampleCode=undefined",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/crc/bindSampleMsg/bindSampleMsg",
+          "pathName": "pages/sample/pages/crc/bindSampleMsg/bindSampleMsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "录入信息",
+          "pathName": "pages/sample/pages/liverCancer/bindSampleMsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/liverCancer/suitable",
+          "pathName": "pages/sample/pages/liverCancer/suitable",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/sample/pages/liverCancer/bindSampleMsg",
+          "pathName": "pages/sample/pages/liverCancer/bindSampleMsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "优惠劵详情",
+          "pathName": "pages/home/details/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "转赠",
+          "pathName": "pages/home/passOn/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "领取优惠劵",
+          "pathName": "pages/home/collectCoupons/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "获取头像",
+          "pathName": "pages/home/defaultAvatarUrl/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "授权",
+          "pathName": "pages/home/login/index",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

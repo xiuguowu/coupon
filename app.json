@@ -1,0 +1,32 @@
+{
+  "pages": [
+   
+    "pages/home/index/index",
+    "pages/home/login/index",
+    "pages/home/home/index",
+    "pages/home/details/index",
+    "pages/home/passOn/index",
+    "pages/home/collectCoupons/index",
+    "pages/home/demo/index",
+    "pages/home/defaultAvatarUrl/index"
+    
+    
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "华大基因内部福利券",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 60000
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wx906fd5aa6208952c",
+    "wx70b732c798c7cba8"
+  ]
+  
+}

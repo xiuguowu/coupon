@@ -1,0 +1,173 @@
+/**app.wxss**/
+
+page{box-sizing:border-box;background-color:#f6f6f6;}
+button::after{border:none;}
+
+/*公共样式 begin */
+
+/*
+弹性布局begin  
+*/
+/* 横向从左到右排列（左对齐），默认的排列方式。 */
+.flex-direction-row {/* flex-flow:row;这个属性应该是已经不用了 */display:flex;}
+
+
+/* 反转横向排列（右对齐，从后往前排，最后一项排在最前面。 */
+.flex-direction-reverse{flex-flow:reverse;}
+
+/* 反转纵向排列，从后往前排，最后一项排在最上面 */
+.flex-direction-column-reverse{flex-flow:column-reverse;}
+
+/* 纵向排列 */
+.flex-direction-column{flex-flow:column;}
+
+/*默认当伸缩容器主轴方向空间不足，压缩伸缩项目，但不会换行  */
+.flex-wrap-nowrap{flex-wrap:nowrap;}
+
+/*当伸缩容器主轴方向空间不足，换行显示 1.换行后，行高等于 容器的高度/行数   2.默认，侧轴拉伸基于行高。  */
+.flex-wrap-wrap{flex-wrap:wrap;}
+
+/*侧轴 start 与 end 对调；  */
+.flex-wrap-wrap-reverse{flex-wrap:wrap-reverse;}
+
+/*交叉轴的起点对齐  */
+.align-items-start{align-items:flex-start;}
+
+/*交叉轴的终点对齐  */
+.align-items-end{align-items:flex-end;}
+
+/*交叉轴的中点对齐  */
+.align-items-center{align-items:center;}
+
+/*项目的第一行文字的基线对齐 */
+.align-items-baseline{align-items:baseline;}
+
+/*如果项目未设置高度或设为auto，将占满整个容器的高度。  */
+.align-items-stretch{align-items:stretch;}
+
+/* 属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。 */
+
+/*与交叉轴的起点对齐 */
+.align-content-flex-start{align-content:flex-start;}
+
+/*与交叉轴的终点对齐 */
+.align-content-flex-end{align-content:flex-end;}
+
+/*与交叉轴的中点对齐 */
+.align-content-center{align-content:center;}
+
+/*与交叉轴两端对齐，轴线之间的间隔平均分布*/
+.align-content-space-between{align-content:space-between;}
+
+/*每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。*/
+.align-content-space-around{align-content:space-around;}
+
+/*轴线占满整个交叉轴*/
+.align-content-stretch{align-content:stretch;}
+
+/*justify-content（在父元素设置） 
+设置弹性盒子元素在主轴（横轴）的对齐方式。  */
+
+/*弹性盒子元素将向行起始位置对齐。第一个元素与左起始边界对齐，后面的元素接着第一个元素进行排列。  */
+.justify-content-flex-start{justify-content:flex-start;}
+
+/*弹性盒子元素将向行结束位置对齐。整体靠着行结束的位置排列。  */
+.justify-content-flex-end{justify-content:flex-end;}
+
+/*整体居中显示  */
+.justify-content-center{justify-content:center;}
+
+/*弹性盒子元素均匀分布。第一个元素的边界与行的主起始位置的边界对齐，同时最后一个元素的边界与行的主结束位置的边距对齐，而剩余的伸缩盒项目则平均分布，并确保两两之间的空白空间相等。  */
+.justify-content-space-between{justify-content:space-between;}
+
+/*弹性盒子元素均匀分布。两端保留子元素与子元素之间间距大小的一半 */
+.justify-content-space-around{justify-content:space-around;}
+
+
+/*
+弹性布局end 
+*/
+.float-right{float:right;}
+.float-left{float:left;}
+.display-block{display:block;}
+.display-inline-block{display:inline-block;}
+.border-top{border-top:1rpx solid #f2f2f2;}
+.border-bottom{border-bottom:1rpx solid #f2f2f2;}
+.border-TB{border-top:1rpx solid #f2f2f2;border-bottom:1rpx solid #f2f2f2;}
+.clearfix::before,.clearfix::after{content:'';display:block;line-height:0;height:0;visibility:hidden;clear:both;}
+.pub-sizeBtn{padding-left:50rpx;padding-right:50rpx;}
+.pub-btn{background-image:-webkit-linear-gradient(-56deg,#6df0ea,#4bd8d2,#c0d3fa);background-image:linear-gradient(-56deg,#6df0ea,#4bd8d2,#c0d3fa);-moz-box-shadow:0 10px 20px #a7dfe5;-webkit-box-shadow:0 10px 20px #a7dfe5;box-shadow:0 10px 20px #a7dfe5;margin-top:60rpx;text-align:center;width:100%;height:90rpx;border-radius:80rpx;color:#fff;font-size:32rpx;line-height:90rpx;margin-bottom:30rpx;display:block;vertical-align:middle;}
+
+/*单色按钮 大 */
+.monochromeBtn{text-align:center;height:90rpx;line-height:90rpx;font-size:34rpx;color:#fff;}
+.monochromeBtn-span{background-color:#81dcd7;border-radius:60rpx;width:100%;height:100%;font-size:34rpx;color:#fff;}
+
+
+/*  重写 radio 样式  */
+/* 未选中的 背景样式 */
+radio .wx-radio-input{border-radius:50%;/* 圆角 */width:30rpx;height:30rpx;vertical-align:middle;line-height:30rpx;}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked{border:#81dcd7;background:#81dcd7;}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{border-radius:50%;/* 圆角 */width:30rpx;/* 选中后对勾大小，不要超过背景的尺寸 */height:30rpx;/* 选中后对勾大小，不要超过背景的尺寸 */line-height:30rpx;text-align:center;font-size:20rpx;/* 对勾大小 30rpx */color:#fff;/* 对勾颜色 白色 */background:transparent;transform:translate(-50%,-50%) scale(1);-webkit-transform:translate(-50%,-50%) scale(1);}
+
+
+/*  重写 checkbox 样式  */
+/* 未选中的 背景样式 */
+checkbox .wx-checkbox-input{border-radius:10%;width:30rpx;height:30rpx;vertical-align:middle;line-height:30rpx;}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{/* border:none;*/border-color:#81dcd7;background:#81dcd7;}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{/* border-radius:10%;*/width:30rpx;height:30rpx;line-height:30rpx;text-align:center;font-size:20rpx;color:#fff;background:transparent;transform:translate(-50%,-50%) scale(1);-webkit-transform:translate(-50%,-50%) scale(1);}
+
+
+/* 返回首页按钮 */
+.sample-back{position:fixed;top:10rpx;right:10rpx;z-index: 3;}
+.sample-back image{width:99rpx;height:99rpx;display:block;}
+
+
+/* 返回首页按钮 底部 */
+.sample-back-bottom{position:fixed;bottom:16rpx;right:16rpx;}
+.sample-back-bottom image{width:99rpx;height:99rpx;display:block;}
+.textAlignC{text-align:center;}
+.textAlignL{text-align:left;}
+.textAlignR{text-align:right;}
+
+
+/* 字体
+font_*  *字号大小
+font_*_# #是颜色
+*/
+.font_42_0{font-size:42rpx;line-height:60rpx;color:#000;}
+.font_28_9{font-size:28rpx;line-height:48rpx;color:#999;}
+.font_28_3{font-size:28rpx;line-height:48rpx;color:#333;}
+.font_30_3{font-size:30rpx;line-height:48rpx;color:#333;}
+.font_30_6{font-size:30rpx;line-height:48rpx;color:#666;}
+.font_32_3{font-size:32rpx;line-height:48rpx;color:#333;}
+.font_28_6{font-size:28rpx;line-height:48rpx;color:#666;}
+.font_34_F{font-size:34rpx;line-height:48rpx;color:#fff;}
+.font_34_6{font-size:34rpx;line-height:48rpx;color:#666;}
+.font_34_3{font-size:34rpx;line-height:48rpx;color:#333;}
+.font_32_4097EA{font-size:32rpx;line-height:45rpx;color:#4097EA;}
+.font_32_F25151{font-size:32rpx;line-height:45rpx;color:#F25151;}
+.font_link_4097EA{color:#4097EA;text-decoration:underline;}
+
+
+.marginT_10{margin-top:10rpx;}
+.marginT_15{margin-top:15rpx;}
+.marginT_20{margin-top:20rpx;}
+.marginT_30{margin-top:30rpx;}
+.marginT_40{margin-top:40rpx;}
+.marginT_50{margin-top:50rpx;}
+.marginT_90{margin-top:90rpx;}
+.maringL_10{margin-left:10rpx;}
+.maringL_20{margin-left:20rpx;}
+.maleHpv_pot{padding-left:20rpx;position:relative;}
+.maleHpv_pot::before{content:'';position:absolute;width:10rpx;height:10rpx;background-color:#5cadfb;border-radius:50%;left:0;top:20rpx;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;}
+.distance_100{height:100rpx;}
+.distance_40{height:40rpx;}
+.width_372{width:372rpx;}
+
+sup{
+  font-size: 20rpx;
+  vertical-align:text-top;
+  color: #F25151;
+}

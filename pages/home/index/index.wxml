@@ -1,0 +1,169 @@
+<nav noArrow   navTitle='华大基因内部福利券'></nav>
+<view class="flexTop" style="top:{{navigationBarHeight}}">
+<!-- top -->
+<view class="top">
+<view class="flexE">
+<view class="head"><image src="/static/img/home/de.png"></image></view>
+<view class="nickname"><text>赖李露</text><text class="tag">BGIer</text></view>
+</view>
+<view class="slogan"><image src="/static/img/home/slogan.png"></image></view>
+</view>
+<!-- swiper -->
+<view>
+  <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imageList}}" wx:key="*this">
+          <swiper-item>
+          <image src="{{item}}"></image>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+</view>
+</view>
+<!-- 可以使用优惠劵 -->
+<view class="effective">
+<view class="item" bindtap="toDetails">
+<view class="item_bg"><image src="/static/img/home/backgroundLayer.png"></image></view>
+<view class="line"></view>
+  <view class="limitCoupon"><text class="limitCouponText">限量劵</text><image src="/static/img/home/limitCoupon.png"></image></view>
+  <view class="item_contentBg">
+  <view class="item_content">
+  <view class="item_contentT">
+  <view class="item_content_L">
+    <view class="item_content_T"><text>8989靶向用药个体化诊疗基因检测</text></view>
+<view class="item_content_S"><text>2023-01-01到期</text></view>
+</view>
+<!-- 价格、折扣 -->
+<view class="item_content_R">
+<!-- 价格 -->
+<!-- <view >
+<text class="numS">¥</text>
+<text class="numB">2200</text>
+</view> -->
+<view >
+<text class="numB">8</text>
+<text class="numS">折</text>
+</view>
+</view>
+</view>
+<view class="item_content_B"><text class="item_content_BT">为实体瘤患者的治疗提供解读</text>
+<text class="details">查看详情</text>
+  </view>
+</view>
+</view>
+
+</view>
+<!-- 第二个 -->
+<view class="item">
+<view class="item_bg"><image src="/static/img/home/backgroundLayer.png"></image></view>
+<view class="line"></view>
+  <view class="limitCoupon"><text class="limitCouponText">限量劵</text><image src="/static/img/home/limitCoupon.png"></image></view>
+  <view class="item_contentBg">
+  <view class="item_content">
+  <view class="item_contentT">
+  <view class="item_content_L">
+    <view class="item_content_T"><text>8989靶向用药个体化诊疗基因检测今年努力</text></view>
+<view class="item_content_S"><text>2023-01-01到期</text></view>
+</view>
+<!-- 价格、折扣 -->
+<view class="item_content_R">
+<!-- 价格 -->
+<view >
+<text class="numS">¥</text>
+<text class="numB">220</text>
+</view>
+
+</view>
+</view>
+<view class="item_content_B"><text class="item_content_BT">为实体瘤患者的治疗提供解读</text>
+<text class="details">查看详情</text>
+  </view>
+</view>
+</view>
+</view>
+<!-- 第二个结束 -->
+</view>
+<!-- 不可用优惠劵 -->
+<view class="availableN">
+<view class="availableN_T">
+<text>以下为不可用优惠券码</text>
+</view>
+<view class="item">
+<view class="item_bg"><image src="/static/img/home/backgroundLayer.png"></image></view>
+<view class="line"></view>
+  <view class="limitCoupon"><text class="limitCouponText">限量劵</text><image src="/static/img/home/limitCouponN.png"></image></view>
+  <view class="item_contentBg">
+  <view class="item_content">
+  <view class="item_contentT">
+  <view class="item_content_L">
+    <view class="item_content_T"><text>8989靶向用药个体化诊疗基因检测</text></view>
+<view class="item_content_S"><text>2023-01-01到期</text></view>
+</view>
+<!-- 价格、折扣 -->
+<view class="item_content_R">
+<!-- 价格 -->
+<!-- <view >
+<text class="numS">¥</text>
+<text class="numB">2200</text>
+</view> -->
+<view >
+<text class="numB">8.0</text>
+<text class="numS">折</text>
+</view>
+</view>
+</view>
+<view class="item_content_B"><text>为实体瘤患者的治疗提供解读</text>
+<!-- <text class="details">查看详情</text> -->
+  </view>
+</view>
+</view>
+<view class="invalid">
+<image src="/static/img/home/used.png"></image>
+</view>
+</view>
+
+<view class="item">
+<view class="item_bg"><image src="/static/img/home/backgroundLayer.png"></image></view>
+<view class="line"></view>
+  <view class="limitCoupon"><text class="limitCouponText">限量劵</text><image src="/static/img/home/limitCouponN.png"></image></view>
+  <view class="item_contentBg">
+  <view class="item_content">
+  <view class="item_contentT">
+  <view class="item_content_L">
+    <view class="item_content_T"><text>8989靶向用药个体化诊疗基因检测</text></view>
+<view class="item_content_S"><text>2023-01-01到期</text></view>
+</view>
+<!-- 价格、折扣 -->
+<view class="item_content_R">
+<!-- 价格 -->
+<!-- <view >
+<text class="numS">¥</text>
+<text class="numB">2200</text>
+</view> -->
+<view >
+<text class="numB">8.0</text>
+<text class="numS">折</text>
+</view>
+</view>
+</view>
+<view class="item_content_B"><text>为实体瘤患者的治疗提供解读</text>
+<!-- <text class="details">查看详情</text> -->
+  </view>
+</view>
+</view>
+<view class="invalid">
+<image src="/static/img/home/expire.png"></image>
+</view>
+</view>
+</view>
+
+
+<view class="distance_40"></view>
+<!-- 客服 -->
+<view class="customerService">
+<image src="/static/img/home/customerService.png"></image>
+<text>客服</text>
+</view>
